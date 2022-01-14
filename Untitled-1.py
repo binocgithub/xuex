@@ -15,9 +15,10 @@ print ('hello \npty\thon')
 print ('hello',end='\t')
 print ('word',end='123321')
 print ("python")
-number=input ('请输入数字')
-print(number)
-print (type(number))
-num=int (number)
-print (num)
-print(type(num))
+
+c=10
+c+=1+2
+print(c)
+d=10
+d*=1+2
+print(d)
