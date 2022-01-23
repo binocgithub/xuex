@@ -22,3 +22,12 @@ print(c)
 d=10
 d*=1+2
 print(d)
+x=10
+y=3
+z=90
+print (x>y and z>x)
+print (x<y and z>x)
+print (y<x and x<z)
+print (z>y or x<y)
+print (z<y or x<y)
+print (not(z>y or x<y))
