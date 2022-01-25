@@ -12,6 +12,7 @@ print ('我叫%s,今年%d岁了，明年%d，我的体重是%.1f,学号是%03d'%
 print ('我叫%s,今年%s岁了，明年%s，我的体重是%5s,学号是%6s'%(name,age,age+1,weight,stuId))
 print (f'我叫{name}，今年{age}岁了，明年{age+1}，我的体重是{weight}，学号是{stuId}')
 print ('hello \npty\thon')
+
 print ('hello',end='\t')
 print ('word',end='123321')
 print ("python")
@@ -22,12 +23,3 @@ print(c)
 d=10
 d*=1+2
 print(d)
-x=10
-y=3
-z=90
-print (x>y and z>x)
-print (x<y and z>x)
-print (y<x and x<z)
-print (z>y or x<y)
-print (z<y or x<y)
-print (not(z>y or x<y))
