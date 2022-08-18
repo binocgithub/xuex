@@ -23,3 +23,10 @@ print(c)
 d=10
 d*=1+2
 print(d)
+
+onlineage=int(input("请输入年龄"))
+if onlineage>=18:
+    print("你的年龄为%s，可以上网。" %onlineage)
+else:
+    print(f"你的年龄为{onlineage}，不能上网。")
+print("系统关闭")
