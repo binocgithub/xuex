@@ -30,3 +30,9 @@ if onlineage>=18:
 else:
     print(f"你的年龄为{onlineage}，不能上网。")
 print("系统关闭")
+if onlineage<16:
+    print(f"你今年{onlineage}岁，属于童工，不合法")
+elif (onlineage>=16) and (onlineage<=60):
+    print(f"你今年{onlineage}岁，属于合法劳动年龄")
+else:
+    print(f"你今年{onlineage}岁，退休年龄")
