@@ -1,3 +1,6 @@
+from random import random
+
+
 print("2**4=",2**4)
 print("1024*768=",1024*768)
 age =  18.5
@@ -36,3 +39,15 @@ elif (onlineage>=16) and (onlineage<=60):
     print(f"你今年{onlineage}岁，属于合法劳动年龄")
 else:
     print(f"你今年{onlineage}岁，退休年龄")
+
+#石头剪刀步游戏
+import random
+computer=random.randint(0,2)
+
+player=int(input("请出拳，石头是0，剪刀是1，布是2："))
+if (player==0 and computer==1) or (player==1 and computer==2) or (player==2 and computer==0):
+    print(f"玩家出的是:,{player},电脑出的是:{computer},玩家获胜")
+elif player==computer:
+    print(f"玩家出的是:,{player},电脑出的是:{computer},平局")
+else:
+    print(f"玩家出的是:,{player},电脑出的是:{computer},电脑获胜")
